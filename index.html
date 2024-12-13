@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carbon Footprint Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>🌱 Carbon Footprint Calculator 🌱</h1>
+    </header>
+
+    <div class="container">
+        <form>
+            <label for="transport">🚗 Daily Transportation (km):</label>
+            <input type="number" id="transport" placeholder="Enter km traveled" required>
+
+            <label for="water">💧 Monthly Water Consumption (liters):</label>
+            <input type="number" id="water" placeholder="Enter water usage" required>
+
+            <label for="electricity">⚡ Monthly Electricity Usage (kWh):</label>
+            <input type="number" id="electricity" placeholder="Enter electricity usage" required>
+
+            <div class="timeframe-container">
+                <label for="timeframe">⏰ Select timeframe:</label>
+                <select id="timeframe">
+                    <option value="day">Daily</option>
+                    <option value="week">Weekly</option>
+                    <option value="month">Monthly</option>
+                </select>
+            </div>
+
+            <button type="button" onclick="calculate()">Calculate Carbon Footprint</button>
+        </form>
+
+        <h3>Your Carbon Footprint:</h3>
+        <div id="result" class="result-box">0 kg CO2</div>
+
+        <h3>Commentary on CO2 Emissions:</h3>
+        <div id="comment" class="comment-box">Please calculate your CO2 emissions to see insights here.</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
