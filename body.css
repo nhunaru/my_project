@@ -26,9 +26,9 @@ html {
     background: #fff;
 }
 header h1 {
-    color: #ffffff; /* Ví dụ: Màu trắng */
+    color:  #ff4500; /* Ví dụ: Màu trắng */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Thêm bóng chữ để tăng độ nổi bật */
-    font-size: 2.5rem; /* Tăng kích thước chữ nếu cần */
+    font-size: 3rem; /* Tăng kích thước chữ nếu cần */
     text-align: center; /* Căn giữa tiêu đề */
 }
 /* Style form elements */
