@@ -9,12 +9,6 @@ body {
     font-family: 'Arial', sans-serif;
     color: #333;
 }
-header h1 {
-    color: #ffffff; /* Ví dụ: Màu trắng */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Thêm bóng chữ để tăng độ nổi bật */
-    font-size: 2.5rem; /* Tăng kích thước chữ nếu cần */
-    text-align: center; /* Căn giữa tiêu đề */
-}
 
 html {
     margin: 0;
@@ -31,7 +25,12 @@ html {
     border-radius: 10px;
     background: #fff;
 }
-
+header h1 {
+    color: #ffffff; /* Ví dụ: Màu trắng */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Thêm bóng chữ để tăng độ nổi bật */
+    font-size: 2.5rem; /* Tăng kích thước chữ nếu cần */
+    text-align: center; /* Căn giữa tiêu đề */
+}
 /* Style form elements */
 form {
     margin-bottom: 15px;
