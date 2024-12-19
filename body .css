@@ -1,7 +1,7 @@
 
 /* General reset */
 body {
-    background-image: url('images/background.jpg'); /* Sửa đường dẫn tới file hình ảnh */
+    background-image: url('nen.jpg'); /* Sửa đường dẫn tới file hình ảnh */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
